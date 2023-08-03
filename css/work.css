@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    font-family: "Heebo";
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card {
+    width: 100%;
+    height: 1534px;
+    color: var(--dark-color, #21243d);
+    font-family: "Heebo";
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  .navbar {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    margin-bottom: 106px;
+  }
+  
+  a {
+    padding: 27px 33px 0px 0px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--primary, #ff6464);
+  }
+  
+  .card-body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .body {
+    width: 682px;
+  }
+  
+  .subject {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 25px;
+  }
+  
+  .horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .picture {
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    margin-right: 18px;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vertical-header {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .vertical-subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 19px;
+  }
+  
+  .badge {
+    display: flex;
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background: #142850;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+  }
+  
+  .vertical-subheader-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light, #8695a4);
+  }
+  
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .line {
+    margin: 47px 0px 43px 0px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .footer {
+    margin-top: 103px;
+    color: var(--dark, #21243d);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+  }
+  
+  .media-menu {
+    display: none;
+  }
+  
+  .footer-horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .footer-label {
+    margin-bottom: 54px;
+  }
+  
+  @media only screen and (max-width: 740px) {
+    .navbar {
+      margin-bottom: 0;
+    }
+  
+    a.nav {
+      display: none;
+      padding: 0;
+    }
+  
+    .media-menu {
+      display: block;
+      width: 30px;
+      height: 18px;
+      margin: 20px 18px 24px 0px;
+    }
+  
+    .card {
+      height: auto;
+    }
+  
+    .body {
+      padding: 0px 18px 0px 18px;
+    }
+  
+    .horizontal {
+      flex-direction: column;
+    }
+  
+    .picture {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 17px;
+    }
+  
+    .vertical-header {
+      font-size: 24px;
+    }
+  
+    .vertical-subheader {
+      margin-bottom: 25px;
+    }
+  
+    .badge {
+      font-size: 16px;
+      margin-right: 22px;
+    }
+  
+    .vertical-subheader-text {
+      font-size: 16px;
+    }
+  
+    .line {
+      margin: 17px 0px 51px 0px;
+    }
+  }
+  

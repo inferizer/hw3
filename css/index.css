@@ -1,0 +1,478 @@
+* {
+    box-sizing: border-box;
+    font-family: "Heebo";
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    margin-bottom: 140px;
+  }
+  
+  a {
+    padding: 27px 33px 0px 0px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--primary, #ff6464);
+  }
+  
+  .card1 {
+    width: 100%;
+    height: 595px;
+  }
+  
+  .card1-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    margin-right: 115px;
+    margin-bottom: 49px;
+  }
+  
+  .top-line {
+    color: var(--dark-color, #21243d);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  .bottom-line {
+    color: var(--dark-color, #21243d);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 49px;
+  }
+  
+  .ver-detail {
+    width: 497px;
+    height: 66px;
+    flex-shrink: 0;
+    color: var(--dark-color, #21243d);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+  
+  .download {
+    border-radius: 2px;
+    background: var(--primary, #ff6464);
+    width: 208px;
+    height: 47px;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+  }
+  
+  .card2 {
+    width: 100%;
+    height: 396px;
+    background: #edf7fa;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card2-body {
+    width: 856px;
+  }
+  
+  .card2-vertical-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  
+  .card2-header-left {
+    color: var(--dark-color, #21243d);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  
+  .card2-header-right {
+    color: var(--secondry, #00a8cc);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .card2-vertical-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card2-body-left {
+    width: 418px;
+    height: 295px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+  }
+  
+  .card2-body-right {
+    width: 418px;
+    height: 295px;
+    border-radius: 4px;
+    background: #fff;
+  }
+  
+  .card2-body-detail {
+    padding: 24px;
+    color: var(--dark-color, #21243d);
+    font-style: normal;
+  }
+  
+  .card2-body-detail-header {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+  }
+  
+  .card2-body-detail-subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 11px;
+  }
+  
+  .card2-body-detail-subheader-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 25px;
+  }
+  
+  .card2-body-detail-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .card3 {
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    color: var(--dark-color, #21243d);
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  .card3-body {
+    width: 856px;
+  }
+  
+  .card3-picture {
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    margin-right: 18px;
+  }
+  
+  .card3-horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .card3-vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card3-vertical-header {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16;
+  }
+  
+  .card3-vertical-subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 17px;
+  }
+  
+  .badge {
+    display: flex;
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background: #142850;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+  }
+  
+  .card3-vertical-subheader-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light, #8695a4);
+  }
+  
+  .card3-body-detail-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .card3-line {
+    margin: 31px 0px 31px 0px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .footer {
+    margin-top: 103px;
+    color: var(--dark, #21243d);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .footer-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+  }
+  
+  .media-menu {
+    display: none;
+  }
+  
+  .media-ver-detail {
+    display: none;
+  }
+  
+  .media-card3-horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer-label {
+    margin-bottom: 54px;
+  }
+  
+  @media only screen and (max-width: 860px) {
+    .card1 {
+      height: 666px;
+    }
+  
+    .navbar {
+      margin-bottom: 0;
+    }
+  
+    a {
+      display: none;
+      padding: 0;
+    }
+  
+    .media-menu {
+      display: block;
+      width: 30px;
+      height: 18px;
+      margin: 20px 18px 63px 0px;
+    }
+  
+    .card1-body {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .horizontal {
+      flex-direction: column-reverse;
+    }
+  
+    .media-image {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .right-icon {
+      width: 170.859px;
+      height: 170.859px;
+      border-radius: 170.859px;
+      margin-bottom: 34px;
+    }
+  
+    .vertical {
+      margin: 0;
+      text-align: center;
+      margin-bottom: 21px;
+    }
+  
+    .top-line,
+    .bottom-line {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .bottom-line {
+      margin-bottom: 21px;
+    }
+  
+    .media-detail {
+      width: 208px;
+    }
+  
+    .ver-detail {
+      display: block;
+      margin-bottom: 27px;
+      width: 328px;
+      height: 96px;
+    }
+  
+    .card2 {
+      height: 647px;
+    }
+  
+    .card2-body {
+      width: 375px;
+    }
+  
+    .card2-vertical-header {
+      justify-content: center;
+      margin-bottom: 11px;
+    }
+  
+    .card2-header-left {
+      font-size: 18px;
+    }
+  
+    .card2-header-right {
+      display: none;
+    }
+  
+    .card2-vertical-body {
+      flex-direction: column;
+    }
+  
+    .card2-body-left {
+      width: 354px;
+      height: 266px;
+      margin-bottom: 17px;
+    }
+  
+    .card2-body-right {
+      width: 354px;
+      height: 266px;
+    }
+  
+    .card2-body-detail {
+      padding: 19px;
+    }
+  
+    .card2-body-detail-header {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 12px;
+    }
+  
+    .card2-body-detail-subheader {
+      margin-bottom: 19px;
+    }
+  
+    .card2-body-detail-subheader-text {
+      font-size: 16px;
+      margin-right: 24px;
+    }
+  
+    .card3 {
+      width: 100%;
+      height: 852px;
+    }
+  
+    .card3-body {
+      width: 375px;
+    }
+  
+    .media-card3-header {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 11px;
+    }
+  
+    .card3-horizontal {
+      flex-direction: column;
+    }
+  
+    .card3-picture {
+      width: 100%;
+      height: auto;
+      padding: 0px 18px 0px 18px;
+      margin: 0;
+      margin-bottom: 17px;
+    }
+  
+    .card3-vertical-header {
+      padding-left: 18px;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  
+    .card3-vertical-subheader {
+      padding-left: 18px;
+      margin-bottom: 24px;
+    }
+  
+    .badge {
+      width: 62px;
+      height: 25px;
+      font-size: 16px;
+      margin-right: 22px;
+    }
+  
+    .card3-vertical-subheader-text {
+      font-size: 16px;
+    }
+  
+    .card3-body-detail-description {
+      padding: 0px 18px 0px 18px;
+    }
+  }
+  

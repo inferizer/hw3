@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    font-family: "Heebo";
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card {
+    width: 100%;
+    height: 1261px;
+    color: var(--dark-color, #21243d);
+    font-family: "Heebo";
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  .navbar {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    margin-bottom: 106px;
+  }
+  
+  a {
+    padding: 27px 33px 0px 0px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--primary, #ff6464);
+  }
+  
+  .body {
+    width: 100%;
+    padding: 0px 235px 0px 235px;
+  }
+  
+  .subject {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 55px;
+  }
+  
+  .header {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .subheader-text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+  }
+  
+  .description {
+    width: 610px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .line {
+    margin: 29px 0px 32px 0px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .footer {
+    margin-top: 103px;
+    color: var(--dark, #21243d);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .media-menu {
+    display: none;
+  }
+  
+  .footer-label {
+    margin-bottom: 54px;
+  }
+  
+  @media only screen and (max-width: 860px) {
+    .navbar {
+      margin-bottom: 0;
+    }
+  
+    a {
+      display: none;
+      padding: 0;
+    }
+  
+    .card {
+      height: auto;
+    }
+  
+    .media-menu {
+      display: block;
+      width: 30px;
+      height: 18px;
+      margin: 20px 18px 24px 0px;
+    }
+  
+    .body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0px 18px 0px 18px;
+    }
+  
+    .subject {
+      font-size: 30px;
+      margin-bottom: 18px;
+    }
+  
+    .header {
+      font-size: 26px;
+      margin-bottom: 5px;
+    }
+  
+    .subheader {
+      margin-bottom: 17px;
+    }
+  
+    .subheader-text {
+      font-size: 16px;
+      margin-right: 14px;
+    }
+  
+    .description {
+      width: 100%;
+    }
+  
+    .line {
+      margin: 29px 0px 32px 0px;
+      border: 1px solid #e0e0e0;
+    }
+  
+    .footer-label {
+      margin-bottom: 54px;
+    }
+  }
+  
